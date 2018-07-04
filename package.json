@@ -1,0 +1,35 @@
+{
+  "name": "apidoc-central",
+  "version": "1.0.0",
+  "description": "Easily host and access all your APIDOCS and Swagger Specifications in one centrailized location!",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/system/main.ts",
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinuraG/Apidoc-Central.git"
+  },
+  "keywords": [
+    "apidoc",
+    "swagger",
+    "apidoc-central",
+    "central",
+    "binura"
+  ],
+  "author": "binura.g@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BinuraG/Apidoc-Central/issues"
+  },
+  "homepage": "https://github.com/BinuraG/Apidoc-Central#readme",
+  "devDependencies": {
+    "ts-node": "^7.0.0",
+    "tsc": "^1.20150623.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
